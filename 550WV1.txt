@@ -71,7 +71,7 @@ local Page = Tab:CreateFrame("550系列脚本")
 Button = Page:CreateButton("550A TZ", "最初的起点", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550A-TZ.txt"))()
 end)
-Button = Page:CreateButton("550W V1", "正式进入550W时代", function()
+Button = Page:CreateButton("550W V1(现在用的)", "正式进入550W时代", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550WV1JM.txt"))();
 end)
 Button = Page:CreateButton("550W V2", "因为脚本出现了一些原因，所以才有了V2", function()
