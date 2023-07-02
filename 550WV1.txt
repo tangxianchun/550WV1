@@ -107,6 +107,7 @@ local Tab = Window:CreateTab("游戏脚本列表")
 local Page = Tab:CreateFrame("致谢人员")
 
 Label = Page:CreateLabel("Label")
+Label:UpdateLabel("『HUA Script作者』『飞舞幻想作者』")
 Label:UpdateLabel("合集，TZ，550W")
 
 local Page = Tab:CreateFrame("公告")
@@ -131,6 +132,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/ma
 end)
 Button = Page:CreateButton("550W V3", "正式版", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W_V3JM.txt"))()
+end)
+Button = Page:CreateButton("550W V4", "仅限测试员使用(有白名单)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W-V4.txt"))()
 end)
 local Page = Tab:CreateFrame("通用功能")
 
