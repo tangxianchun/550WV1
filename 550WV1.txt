@@ -25,7 +25,7 @@ if _G.whitelist==true then
     local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "验证结果.",
+    Title = "验证结果",
     Text = a.."验证身份成功等待时间长一点",
     Duration = 5,
 })
@@ -458,9 +458,9 @@ end)
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "验证失败",
-    Text = "你并没有白名单",
-    Duration = 10,   
+    Title = "验证成功",
+    Text = "你有白名单",
+    Duration = 5,   
 
 })
 end
