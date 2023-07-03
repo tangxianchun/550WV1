@@ -21,6 +21,12 @@ elseif a=="rushshshseek9"then
 _G.whitelist=true
 elseif a=="tangxianchu"then
 _G.whitelist=true
+elseif a=="zyzqwp"then
+_G.whitelist=true
+elseif a=="as30326"then
+_G.whitelist=true
+elseif a=="gvgggcfftfrreww"then
+_G.whitelist=true
 end
 if _G.whitelist==true then
   wait(2)
