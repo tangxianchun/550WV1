@@ -1,8 +1,33 @@
 local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "确认身份",
+    Text = "正在验证....",
+    Duration = 5,
+})
+
+local a=tostring(game.Players.LocalPlayer.Character);
+
+if a=="zkosjsiw"then
+_G.whitelist=true
+elseif a=="tangxianchu"then
+_G.whitelist=true
+end
+if _G.whitelist==true then
+  wait(2)
+    local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证结果.",
+    Text = a.."验证身份成功等待时间长一点",
+    Duration = 5,
+})
+wait(5)
+local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
     Title = "『脚本测试员』",
     Text = "『十字架』『tangxianchu』『一头小』『一条鱼』",
-    Duration = 999, 
+    Duration = 9999, 
 })
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
@@ -423,3 +448,12 @@ end)
 Button = Page:CreateButton("远程打开商店界面", "免费脚本，请勿倒卖", function()
 game:GetService("Players").LocalPlayer.PlayerGui["Main_Gui"]["UpgradeMenu_Frame"].Visible = true
 end)
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+    Title = "验证失败",
+    Text = "你并没有白名单",
+    Duration = 10,   
+
+})
+end
