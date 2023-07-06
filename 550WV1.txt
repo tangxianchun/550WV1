@@ -4,12 +4,12 @@ CoreGui:SetCore("SendNotification", {
     Text = "781759165",
     Duration = 2999, 
 })
-wait(4)
+wait(2)
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "确认身份",
-    Text = "正在验证....",
+    Title = "🇹「㊐   ㊊』🇿",
+    Text = "白名单资格验证中...",
     Duration = 5,
 })
 
@@ -503,12 +503,17 @@ end)
 Button = Page:CreateButton("远程打开商店界面", "免费脚本，请勿倒卖", function()
 game:GetService("Players").LocalPlayer.PlayerGui["Main_Gui"]["UpgradeMenu_Frame"].Visible = true
 end)
+else
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-    Title = "验证成功",
-    Text = "你有白名单",
-    Duration = 5,   
+    Title = "🇹「㊐   ㊊』🇿",
+    Text = "没有白名单",
+    Duration = 10,   
 
 })
+
+wait(2)
+game.Players.LocalPlayer:Kick ("错误：加群有活动领取白名单资格：781759165")
 end
+
