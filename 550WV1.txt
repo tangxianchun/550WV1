@@ -24,6 +24,9 @@ _G.whitelist=true
 elseif a=="SDjdkskes"then
 _G.whitelist=true
 
+elseif a=="cclb_123xh"then
+_G.whitelist=true
+
 elseif a=="gamemode12678643"then
 _G.whitelist=true
 
