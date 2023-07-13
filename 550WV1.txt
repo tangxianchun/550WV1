@@ -83,6 +83,12 @@ elseif a=="0997ikun"then
 _G.whitelist=true
 elseif a=="Zsjcb1005"then
 _G.whitelist=true
+elseif a=="951357nvjn"then
+_G.whitelist=true
+elseif a=="gfj233958"then
+_G.whitelist=true
+elseif a=="shadiao_yazi"then
+_G.whitelist=true
 elseif a=="114514phz129"then
 _G.whitelist=true
 elseif a=="plmnkoijbvhuygcxfty"then
