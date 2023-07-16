@@ -59,6 +59,8 @@ elseif a=="Harry_Bert"then
 _G.whitelist=true
 elseif a=="cclb_123xh"then
 _G.whitelist=true
+elseif a=="QMPW147258"then
+_G.whitelist=true
 elseif a=="6fhg51"then
 _G.whitelist=true
 elseif a=="6331nhdi"then
