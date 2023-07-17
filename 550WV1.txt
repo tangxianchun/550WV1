@@ -41,8 +41,8 @@ Heartbeat:Connect(HeartbeatUpdate)
 
 local CoreGui = loadstring(game:HttpGet(('https://raw.githubusercontent.com/pyawhh/UI-GUI/main/%E6%B6%88%E6%81%AF%E6%8F%90%E9%86%92%E5%8A%A0%E5%AF%86.txt')))()
 
-notify("————💫『㊐  工作室  ㊊』💫————", "白名单验证中", 4)
-notify("————💫『㊐  工作室  ㊊』💫————", "加群定期发放白名单", 4)
+notify("————💫『㊐  工作室  ㊊」💫————", "白名单验证中", 4)
+notify("————💫『㊐  工作室  ㊊」💫————", "加群定期发放白名单", 4)
 wait(1)
 
 local a=tostring(game.Players.LocalPlayer.Character);
