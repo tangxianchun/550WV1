@@ -71,8 +71,6 @@ elseif a=="shiIbushiKUN"then
 _G.whitelist=true
 elseif a=="QMPW147258"then
 _G.whitelist=true
-elseif a=="6fhg51"then
-_G.whitelist=true
 elseif a=="6331nhdi"then
 _G.whitelist=true
 elseif a=="1235yangTianyu"then
