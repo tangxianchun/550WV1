@@ -121,6 +121,8 @@ elseif a=="QMQQAQQ"then
 _G.whitelist=true
 elseif a=="TANGXIANCHUN"then
 _G.whitelist=true
+elseif a=="a2023742"then
+_G.whitelist=true
 elseif a=="zyzqwp"then
 _G.whitelist=true
 elseif a=="as30326"then
