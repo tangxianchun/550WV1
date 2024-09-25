@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/cypherdh/VanisUILIB/main/.gitignore'))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/cypherdh/VanisUILIB/main/.gitignore"))()
 
 _G.autokill = true
 
@@ -42,7 +42,7 @@ end
 	end
 end
 
-local Window = library:CreateWindow("[550W]脚本中心", "tangxianchu制作", 10044538000)
+local Window = library:CreateWindow("[星月交辉]脚本中心", "日月星辰工作室制作", 10044538000)
 
 local Tab = Window:CreateTab("游戏脚本列表")
 
@@ -55,30 +55,30 @@ Label:UpdateLabel("合集，TZ，550W")
 local Page = Tab:CreateFrame("公告")
 
 Label = Page:CreateLabel("Label")
-Label:UpdateLabel("这脚本是全新的550系列脚本")
+Label:UpdateLabel("这脚本是全新的星月交辉系列脚本")
 
 Label = Page:CreateLabel("Label")
 Label:UpdateLabel("作者QQ:1072042657 QQ群:781759165 QQ频道:868h663073")
 
 Label = Page:CreateLabel("Label")
-Label:UpdateLabel("更新『550W系列脚本』推荐使用")
+Label:UpdateLabel("更新『星月交辉系列脚本』推荐使用")
 local Page = Tab:CreateFrame("550系列脚本")
-Button = Page:CreateButton("550A TZ", "最初的起点", function()
+Button = Page:CreateButton("星月交辉 TZ", "最初的起点", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550A-TZ.txt"))()
 end)
-Button = Page:CreateButton("550W V1", "正式进入550W时代", function()
+Button = Page:CreateButton("星月交辉 V1", "正式进入星月交辉时代", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550WV1JM.txt"))();
 end)
-Button = Page:CreateButton("550W V2", "因为脚本出现了一些原因，所以才有了V2", function()
+Button = Page:CreateButton("星月交辉 V2", "因为脚本出现了一些原因，所以才有了V2", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550WV2_YUN.txt"))()
 end)
-Button = Page:CreateButton("550W V3", "正式版", function()
+Button = Page:CreateButton("星月交辉 V3", "正式版", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W_V3JM.txt"))()
 end)
-Button = Page:CreateButton("550W V4", "仅限测试员使用(有白名单)", function()
+Button = Page:CreateButton("星月交辉 V4", "仅限测试员使用(有白名单)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W_/main/550W-V4.txt"))()
 end)
-Button = Page:CreateButton("550W V5", "功能拓展区", function()
+Button = Page:CreateButton("星月交辉 V5", "功能拓展区", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tangxianchun/550W-V5/main/550W-V5.txt"))()
 end)
 local Page = Tab:CreateFrame("通用功能")
